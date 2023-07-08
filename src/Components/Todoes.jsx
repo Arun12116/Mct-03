@@ -23,7 +23,7 @@ const Todoes = ({ data, deleteItems }) => {
                                         <Box  style={{ width: "100%", height: "5vh", backgroundColor: "white", color: "black", textAlign: "center", marginTop: "1rem" }}>
                                             <Flex justifyContent={"space-around"}>
                                                 <h1>{items}</h1>
-                                                <Button className='btn' colorScheme='red' size={'md'} onClick={() => { deleteItems(index) }}>Delete</Button>
+                                                <Button className='btn' colorScheme='red' size={'sx'} onClick={() => { deleteItems(index) }}>Delete</Button>
 
                                             </Flex>
 
